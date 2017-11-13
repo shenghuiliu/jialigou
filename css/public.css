@@ -1,10 +1,13 @@
+@charset "UTF-8";
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
   margin: 0;
   padding: 0;
 }
 
 html, body {
-  font: 12px/1.5 tahoma,arial,'\5b8b\4f53';
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #444444;
   width: 100%;
 }
 
@@ -48,6 +51,97 @@ input, button, textarea, select, optgroup, option {
   height: 0;
   overflow: hidden;
   visibility: hidden;
+}
+
+/*头部样式*/
+#top {
+  height: 36px;
+  background: #f7f7f7;
+}
+#top .topAll {
+  width: 1190px;
+  height: 26px;
+  margin: 0 auto;
+  padding: 5px;
+}
+#top .topAll .topAllLeft {
+  width: 230px;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  position: relative;
+}
+#top .topAll .topAllLeft .topPhone {
+  position: absolute;
+  top: 3px;
+  height: 21px;
+  line-height: 21px;
+}
+#top .topAll .topAllLeft .topPhone .phoneImg {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  background: url(../images/index/ind-tel.png) no-repeat;
+  vertical-align: middle;
+}
+#top .topAll .topAllLeft .topPhone .phoneNum {
+  font-size: 14px;
+  font-weight: bold;
+  color: #e91456;
+}
+#top .topAll .topAllCenter {
+  float: left;
+}
+#top .topAll .topAllCenter .centerLeft {
+  margin-right: 10px;
+}
+#top .topAll .topAllCenter span {
+  line-height: 26px;
+  text-align: center;
+}
+#top .topAll .topAllCenter span a {
+  color: #333333;
+}
+#top .topAll .topAllRight {
+  height: 26px;
+  float: right;
+  line-height: 26px;
+}
+#top .topAll .topAllRight li {
+  float: left;
+}
+#top .topAll .topAllRight li .phoneLast {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  background: url(../images/index/ind-mobile.png) no-repeat;
+  vertical-align: middle;
+}
+#top .topAll .topAllRight li a {
+  color: #333333;
+}
+#top .topAll .topAllRight .li1 {
+  margin-right: 10px;
+}
+
+/*页面logo*/
+#logo {
+  width: 1190px;
+  height: 74px;
+  line-height: 74px;
+  margin: 10px auto 0;
+  background: red;
+}
+#logo .logoLeft {
+  width: 196px;
+  height: 74px;
+  float: left;
+  margin-right: 146px;
 }
 
 /*# sourceMappingURL=public.css.map */
