@@ -1,3 +1,81 @@
+@charset "UTF-8";
+/*页面导航*/
+#nav {
+  border-bottom: 2px solid #e91456;
+}
+#nav .navCenter {
+  width: 1000px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto;
+}
+#nav .navCenter ul {
+  margin-left: 120px;
+}
+#nav .navCenter ul li {
+  display: inline-block;
+}
+#nav .navCenter ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #444444;
+}
+#nav .navCenter ul .navName {
+  padding: 0 20px;
+}
+#nav .navCenter ul li:first-child a {
+  color: #e91456;
+}
+#nav .navCenter ul .navPhone {
+  margin-right: 100px;
+  color: #E91456;
+  font-weight: bold;
+  float: right;
+}
+#nav .navCenter ul .navPhone .navHot {
+  color: #000000;
+}
 
+/*页面轮播图*/
+#banner {
+  width: 100%;
+  height: 480px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+#banner .bannerImg {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+  z-index: 999;
+}
+#banner .bannerImg img {
+  width: 100%;
+  height: 480px;
+}
+#banner .bannerNum {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  width: 100%;
+  bottom: 10px;
+}
+#banner .bannerNum li {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0 5px;
+  text-align: center;
+  cursor: pointer;
+  background: url(../images/index/slider.png);
+}
+#banner .bannerNum .current {
+  background: url(../images/index/orddetailok.png);
+}
 
 /*# sourceMappingURL=index.css.map */

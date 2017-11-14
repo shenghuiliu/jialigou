@@ -135,13 +135,169 @@ input, button, textarea, select, optgroup, option {
   height: 74px;
   line-height: 74px;
   margin: 10px auto 0;
-  background: red;
+  position: relative;
 }
 #logo .logoLeft {
   width: 196px;
   height: 74px;
   float: left;
   margin-right: 146px;
+}
+#logo .logoSearch {
+  margin-top: 0;
+  margin-left: 73px;
+  line-height: 27px;
+  padding-top: 20px;
+  float: left;
+}
+#logo .logoSearch .search-box {
+  border: 1px solid #E91456;
+}
+#logo .logoSearch .search-box .searchBoxLeft {
+  width: 320px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 12px;
+  border: 0;
+  vertical-align: middle;
+  outline: none;
+}
+#logo .logoSearch .search-box .searchButton {
+  margin-left: -6px;
+  outline: none;
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+  border: 0;
+  font-weight: bold;
+  background: #e21357;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0 12px;
+}
+#logo .logoSearch .search-box .searchButton .searchImg {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../images/index/search.png);
+  vertical-align: middle;
+  margin-right: 12px;
+}
+#logo .logoRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#logo .logoRight .shopping {
+  width: 136px;
+  height: 28px;
+  line-height: 28px;
+  margin: 20px 0 23px;
+  padding: 0 10px;
+  border: 1px solid #E8E8E7;
+}
+#logo .logoRight .shopping .shopImg {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  margin-right: 25px;
+  background: url(../images/index/cart.png);
+  vertical-align: middle;
+  position: relative;
+}
+#logo .logoRight .shopping .shopImg .shopNum {
+  position: absolute;
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  width: 15px;
+  font-size: 10px;
+  top: -5px;
+  right: -14px;
+  text-align: center;
+  background: url(../images/index/anniu.png);
+  color: #ffffff;
+}
+
+#Bottom {
+  margin-top: 20px;
+  background: #fff;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+#Bottom .bottomLine {
+  border-bottom: 2px solid #e91455;
+  height: 0;
+  margin-bottom: 10px;
+}
+#Bottom .BottomTop {
+  height: 46px;
+  margin-bottom: 10px;
+}
+#Bottom .BottomTop .BottomImg {
+  width: 1200px;
+  height: 46px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url(../images/index/foot_info.jpg) no-repeat scroll 0 0;
+}
+#Bottom .BottomBottom {
+  padding: 10px 0;
+}
+#Bottom .BottomBottom .BottomCenter {
+  width: 1200px;
+  margin: 0 auto;
+}
+#Bottom .BottomBottom .BottomCenter .erweima {
+  float: left;
+  width: 123px;
+  height: 123px;
+  background: url(../images/index/jlg_2d.jpg) no-repeat scroll 0 0;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-top: 13px;
+}
+#Bottom .BottomBottom .BottomCenter .BottomService {
+  float: left;
+  margin-left: 30px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-top: none;
+  padding-left: 20px;
+}
+#Bottom .BottomBottom .BottomCenter .BottomService .serviceList {
+  float: left;
+  width: 100px;
+  margin: 0 20px;
+}
+#Bottom .BottomBottom .BottomCenter .BottomService .serviceList strong {
+  display: block;
+  height: 30px;
+  width: 120px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#Bottom .BottomBottom .BottomCenter .BottomService .serviceList a {
+  display: block;
+  height: 30px;
+  width: 120px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #444444;
+}
+#Bottom .BottomBottom .BottomCenter .BottomKf {
+  float: right;
+  width: 260px;
+  height: 65px;
+  margin-top: 35px;
+  background: url(../images/index/call_rz.jpg) no-repeat scroll 0 0;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=public.css.map */
