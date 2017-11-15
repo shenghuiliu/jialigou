@@ -224,6 +224,7 @@ input, button, textarea, select, optgroup, option {
   color: #ffffff;
 }
 
+/*页面底部样式*/
 #Bottom {
   margin-top: 20px;
   background: #fff;
@@ -248,6 +249,7 @@ input, button, textarea, select, optgroup, option {
 }
 #Bottom .BottomBottom {
   padding: 10px 0;
+  height: 150px;
 }
 #Bottom .BottomBottom .BottomCenter {
   width: 1200px;
@@ -298,6 +300,51 @@ input, button, textarea, select, optgroup, option {
   margin-top: 35px;
   background: url(../images/index/call_rz.jpg) no-repeat scroll 0 0;
   overflow: hidden;
+}
+#Bottom .BottomNav {
+  height: 150px;
+  margin: 0 auto;
+  background: #F8F8F8;
+}
+#Bottom .BottomNav p {
+  line-height: 35px;
+  text-align: center;
+  color: #999;
+}
+#Bottom .BottomNav p a {
+  font-size: 12px;
+  color: #444444;
+}
+#Bottom .BottomNav .BottomCompany {
+  height: 60px;
+}
+#Bottom .BottomNav .BottomCompany p {
+  line-height: 18px;
+  font-size: 12px;
+}
+#Bottom .BottomNav .BottomCompany p a {
+  color: #999;
+}
+#Bottom .BottomNav .BottomCompany .cnzz {
+  width: 50px;
+  height: 12px;
+  line-height: 18px;
+  margin: 0 auto;
+}
+#Bottom .BottomNav .BottomCompany .cnzz a {
+  display: block;
+}
+#Bottom .BottomNav .BottomevAluate {
+  height: 42px;
+}
+#Bottom .BottomNav .BottomevAluate .Aluate {
+  width: 588px;
+  height: 42px;
+  margin: 0 auto;
+}
+#Bottom .BottomNav .BottomevAluate .Aluate li {
+  float: left;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=public.css.map */

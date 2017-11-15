@@ -192,7 +192,7 @@ input, button, textarea, select, optgroup, option {
     }
 }
 
-
+/*页面底部样式*/
 #Bottom{
     margin-top: 20px;
     background: #fff;
@@ -216,6 +216,7 @@ input, button, textarea, select, optgroup, option {
     }
     .BottomBottom{
         padding: 10px 0;
+        height: 150px;
         .BottomCenter{
             width: 1200px;
             margin: 0 auto;
@@ -264,6 +265,51 @@ input, button, textarea, select, optgroup, option {
                 margin-top: 35px;
                 background: url(../images/index/call_rz.jpg) no-repeat scroll 0 0;
                 overflow: hidden;
+            }
+        }
+    }
+    .BottomNav{
+        height: 150px;
+        margin: 0 auto;
+        background: #F8F8F8;
+        p{
+            line-height: 35px;
+            text-align: center;
+            color: #999;
+            a{
+                font-size: 12px;
+                color: #444444;
+            }
+        }
+        .BottomCompany{
+            height: 60px;
+            p{
+                line-height: 18px;
+                font-size: 12px;
+                a{
+                    color: #999;
+                }
+            }
+            .cnzz{
+                width: 50px;
+                height: 12px;
+                line-height: 18px;
+                margin: 0 auto; 
+                a{
+                    display: block;             
+                }
+            }
+        }
+        .BottomevAluate{
+            height: 42px;
+            .Aluate{
+                width: 588px;
+                height: 42px;
+                margin: 0 auto;
+                li{
+                    float: left;
+                    margin: 0 10px;
+                }
             }
         }
     }
