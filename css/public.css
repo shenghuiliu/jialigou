@@ -53,7 +53,7 @@ input, button, textarea, select, optgroup, option {
   visibility: hidden;
 }
 
-/*头部样式*/
+/* 首页、列表页头部样式*/
 #top {
   height: 36px;
   background: #f7f7f7;

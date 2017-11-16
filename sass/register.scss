@@ -1,0 +1,142 @@
+#loginTop{
+    height: 130px;
+    background: #fff;
+    .loginTopCenter{
+        width: 1190px;
+        height: 74px;
+        line-height: 74px;
+        margin: 10px auto 0;
+        position: relative;
+        padding: 36px 0 20px;
+        a{
+            line-height: 30px;
+            float: left;
+        }
+        .loginUser{
+            font-size: 18px;
+            float: left;
+            color: #444;
+            i{
+                color: #c9c9c9;
+                padding-right: 15px;
+            }
+        }
+        .loginVip{
+            font-size: 12px;
+            float: right;
+            color: #e91456;
+            p{
+                border: 1px solid #E91456;
+                height: 30px;
+                line-height: 30px!important;
+                position: relative;
+                right: 0;
+                top: 20px;
+                i{
+                   float: left;
+                   color: #444; 
+                   padding: 0 5px;
+                }
+                .register{
+                    padding: 0 5px;
+                    color: #e91456;
+                }
+            }
+        }
+    }
+}
+
+/*注册主体*/
+#Register{
+    height: 377px;
+    background: #eeee;
+    .RegisterCenter{
+        width: 1190px;
+        height: 377px;
+        margin:30px auto 20px;
+        background: #FFFFFF;
+        .RegisterLeft{
+            float: left;
+            .RegisterMain{
+                width: 435px;
+                height: 377px;
+                margin: 0 auto;
+                background: #ffffff;
+                text-align: center;
+                .RegisterMainInformation{
+                    height: 36px;
+                    line-height: 36px;
+                    padding: 20px 0;
+                    position: relative;
+                    font-size: 12px;
+                    color: #444444;
+                    span{
+                        display: inline-block;
+                        width: 80px;
+                        text-align: left;
+                    }
+                    input{
+                        width: 275px;
+                        height: 30px;
+                        line-height: 30px;
+                        vertical-align: middle;
+                        padding-left: 5px;
+                        border-color: #E21357;
+                        outline: none;
+                    }
+                }
+                .Register{
+                    width: 277px;
+                    height: 67px;
+                    margin: 0 0 0 119px;
+                    float: left;
+                    text-align: left;
+                    p{
+                        height: 36px;
+                        line-height: 36px;
+                        input{
+                            height: 36px;
+                            line-height: 36px;
+                            float: left;
+                        }
+                        .servicePromise{
+                            vertical-align: middle;
+                            float: left;
+                            a{
+                                font-size:12px;
+                                color: #444444;
+                                line-height: 36px;
+                            }
+                        }
+                        .Pass{
+                            width: 274px;
+                            color: #fff;
+                            border-color: #e21357;
+                            background: #e21357;
+                            display: inline-block;
+                            text-align: center;
+                            height: 30px;
+                            line-height: 30px;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+                .Chance{
+                    width: 270px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 12px;
+                    color: #444444;
+                    float: left;
+                    margin-left: 46px;
+                    a{
+                        color: #E91456;
+                    }
+                }
+            }
+        }
+        .RegisterRight{
+            float: left;
+        }
+    }
+}

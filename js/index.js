@@ -34,6 +34,14 @@ $(function(){
 	})
 	
 	
+	/*页面导航*/
+	$("#nav .navCenter .navName a").click(function(){
+		$(this).parent().addClass("navColor").siblings().removeClass("navColor")
+	})
+	
+	
+	
+	
 	/*今日、昨日热播*/
 	$.getJSON("json/HotImg.json",function(data){
 		$.each(data,function(index,value){
@@ -138,6 +146,13 @@ $(function(){
 		}
 	$(".floorBannerRight ul").html(str);
 	})
+	
+	
+	$(".floorBannerRight").on( "mouseover" , " li ",function(){
+		$(this).css({"border":"1px solid #ccc"})
+	}).on("mouseout","li",function(){
+		$(this).css({"border":"1px solid #F8F8F8"})
+	})
 	/*页面楼梯二楼*/
 	var str1 ='';
 	$.ajax("json/floor.json")
@@ -157,6 +172,11 @@ $(function(){
 							</li>`;
 		}
 	$(".floorBannerRight2 ul").html(str1);
+	})
+	$(".floorBannerRight2").on( "mouseover" , " li ",function(){
+		$(this).css({"border":"1px solid #ccc"})
+	}).on("mouseout","li",function(){
+		$(this).css({"border":"1px solid #F8F8F8"})
 	})
 	/*页面楼梯三楼*/
 	var str2 ='';
@@ -178,6 +198,11 @@ $(function(){
 		}
 	$(".floorBannerRight3 ul").html(str2);
 	})
+	$(".floorBannerRight3").on( "mouseover" , " li ",function(){
+		$(this).css({"border":"1px solid #ccc"})
+	}).on("mouseout","li",function(){
+		$(this).css({"border":"1px solid #F8F8F8"})
+	})
 	/*页面楼梯四楼*/
 	var str3 ='';
 	$.ajax("json/floor.json")
@@ -198,7 +223,11 @@ $(function(){
 		}
 	$(".floorBannerRight4 ul").html(str3);
 	})
-	
+	$(".floorBannerRight4").on( "mouseover" , " li ",function(){
+		$(this).css({"border":"1px solid #ccc"})
+	}).on("mouseout","li",function(){
+		$(this).css({"border":"1px solid #F8F8F8"})
+	})
 	
 	
 	/*页面底部跟随*/

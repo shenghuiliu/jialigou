@@ -24,7 +24,7 @@
 #nav .navCenter ul .navName {
   padding: 0 20px;
 }
-#nav .navCenter ul li:first-child a {
+#nav .navCenter ul .navColor a {
   color: #e91456;
 }
 #nav .navCenter ul .navPhone {
@@ -349,6 +349,10 @@
 #stairs .stairsFloor .F1 .floorName a {
   color: #444444;
 }
+#stairs .stairsFloor .F1 .floorName:hover a {
+  color: #e91456;
+  text-decoration: underline;
+}
 #stairs .floorNav {
   width: 190px;
   height: 520px;
@@ -376,6 +380,10 @@
   float: left;
   margin-left: 0;
   color: #444444;
+}
+#stairs .floorNav .floorNavTop .navtop li a:hover {
+  color: #e91456;
+  text-decoration: underline;
 }
 #stairs .floorBanner {
   width: 1000px;
@@ -417,6 +425,10 @@
   font-size: 12px;
   color: #444444;
 }
+#stairs .floorBanner .floorBannerRight ul li .floorBannerInformation .floorInformation:hover a {
+  color: #e91456;
+  text-decoration: underline;
+}
 #stairs .floorBanner .floorBannerRight ul li .floorBannerInformation .floorPrice {
   font-size: 14px;
   padding: 5px;
@@ -451,6 +463,10 @@
 #stairs .floorBanner .floorBannerRight2 ul li .floorBannerInformation .floorInformation a {
   font-size: 12px;
   color: #444444;
+}
+#stairs .floorBanner .floorBannerRight2 ul li .floorBannerInformation .floorInformation:hover a {
+  color: #e91456;
+  text-decoration: underline;
 }
 #stairs .floorBanner .floorBannerRight2 ul li .floorBannerInformation .floorPrice {
   font-size: 14px;
@@ -487,6 +503,10 @@
   font-size: 12px;
   color: #444444;
 }
+#stairs .floorBanner .floorBannerRight3 ul li .floorBannerInformation .floorInformation:hover a {
+  color: #e91456;
+  text-decoration: underline;
+}
 #stairs .floorBanner .floorBannerRight3 ul li .floorBannerInformation .floorPrice {
   font-size: 14px;
   padding: 5px;
@@ -521,6 +541,10 @@
 #stairs .floorBanner .floorBannerRight4 ul li .floorBannerInformation .floorInformation a {
   font-size: 12px;
   color: #444444;
+}
+#stairs .floorBanner .floorBannerRight4 ul li .floorBannerInformation .floorInformation:hover a {
+  color: #e91456;
+  text-decoration: underline;
 }
 #stairs .floorBanner .floorBannerRight4 ul li .floorBannerInformation .floorPrice {
   font-size: 14px;

@@ -3,7 +3,193 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		<!--登录页面顶部-->
+		<div id="loginTop">
+			<div class="loginTopCenter">
+				<a href="index.html">
+					<img src="images/login/ladygood.png" alt="" />
+				</a>
+				<span class="loginUser">
+					<i>|</i>
+					用户登录
+				</span>
+				<span class="loginVip">
+					<a href="#"><i>|</i>嘉丽购电视会员激活入口</a><i>|</i>
+				</span>
+			</div>
+		</div>
+		
+		<!--登陆页面Main-->
+		<div id="loginCenter">
+			<div class="loginMain">
+				<div class="loginMainLeft">
+					<img src="images/login/login-bg.jpg"/>
+				</div>
+				<div class="loginMainRight clearfix">
+					<form style="height: 257px;">
+						<div class="loginNum">
+							<div class="loginNumTop">
+								<span class="vip">嘉丽购会员登录</span>
+								<span style="float: right;font-size: 12px;">
+									<a href="register.html" style="color: #e91456;">免费注册</a>
+								</span>
+							</div>
+							<input id="user" type="text" placeholder="用户名/邮箱/电话号码"/>
+						</div>
+						<div class="loginPassword">
+							<input id="password" type="text" placeholder="密码" />
+						</div>
+						<div class="yanzheng">
+							<span class="yanzhengNum">验证码</span>
+							<input id="yanNum" type="text" />
+							<span>
+								<img src="http://www.jialigou.com/customer/Captcha.html" style="display: block;cursor: pointer;"/>
+							</span>
+						</div>
+						<div class="UserLogin">
+							<p>
+								<input type="checkbox" />
+								<span>自动登录</span>
+								<span style="margin-left: 10px;">
+									<a href="#">找回密码</a>
+								</span>
+							</p>
+							<div id="btn">登录</div>
+						</div>
+					</form>
+					<div class="loginRightBottom clearfix">
+						<span class="tip">亲，没有账号，你可以选择以下快捷登录方式！</span>
+						<a href="#" style="text-align: center;color: #444; ">
+							<img src="images/login/qq.png" style="vertical-align: middle;height: 16px;display: inline-block;"/>
+							QQ登录
+						</a>
+						<a href="#">
+							<img src="images/login/other_way.jpg" style="margin-top: 10px;
+vertical-align: bottom;display: inline-block;"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--页面底部-->
+		<div id="Bottom">
+			<div class="bottomLine"></div>
+			<div class="BottomTop">
+				<div class="BottomImg"></div>
+			</div>
+			<div class="BottomBottom">
+				<div class="BottomCenter">
+					<div class="erweima"></div>
+					<div class="BottomService">
+						<div class="serviceList">
+							<strong>购物指南</strong>
+							<a href="#" target="_blank">新用户注册/激活</a>
+							<a href="#" target="_blank">如何订购</a>
+							<a href="#" target="_blank">常见问题</a>
+						</div>
+						<div class="serviceList">
+							<strong>会员中心</strong>
+							<a href="#" target="_blank">会员权利</a>
+							<a href="#" target="_blank">美丽积分</a>
+							<a href="#" target="_blank">订单查询</a>
+							<a href="#" target="_blank">找回密码</a>
+						</div>
+						<div class="serviceList">
+							<strong>配送服务</strong>
+							<a href="#" target="_blank">物流跟踪</a>
+							<a href="#" target="_blank">免运费政策</a>
+						</div>
+						<div class="serviceList">
+							<strong>支付说明</strong>
+							<a href="#" target="_blank">货到付款</a>
+							<a href="#" target="_blank">在线支付</a>
+						</div>
+						<div class="serviceList">
+							<strong>售后服务</strong>
+							<a href="#" target="_blank">退换货政策</a>
+							<a href="#" target="_blank">退换货流程</a>
+							<a href="#" target="_blank">安全与保密</a>
+						</div>
+					</div>
+					<div class="BottomKf"></div>
+				</div>
+			</div>
+			<div class="BottomNav">
+				<p>
+					<a href="#">商城首页</a>
+					|
+					<a href="#">官网微博</a>
+					|
+					<a href="#">供应商登录</a>
+					|
+					<a href="#">供货联系</a>
+					|
+					<a href="#">收藏我们</a>
+					|
+					<a href="#">公司简介</a>
+					|
+					<a href="#">媒体报道</a>
+					|
+					<a href="#">嘉丽购招聘</a>
+					|
+					<a href="#">官方微博</a>
+				</p>
+				<div class="BottomCompany">
+					<p>
+						嘉丽购物有限责任公司 Copyright 2010-2014 jialigou.All Rights Reserved
+					</p>
+					<p class="beihao">
+						 国家广电总局批号：广局[2010] 278号
+						 <a href="#">湘ICP备10203162号-3</a>
+					</p>
+					<div class="cnzz">
+						<a href="#">
+							<img src="images/index/pic.gif"/>
+						</a>
+					</div>
+				</div>
+				
+				<div class="BottomevAluate">
+					<div class="Aluate">
+						<li>
+							<img src="images/index/kx.jpg"/>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/index/360.jpg"/>
+							</a>
+						</li>
+						<li>
+							<img src="images/index/alipay_s.gif"/>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/index/hn110_s.gif"/>
+							</a>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,3 +1,155 @@
+@charset "UTF-8";
+/*登录页面顶部样式*/
+#loginTop {
+  height: 130px;
+}
+#loginTop .loginTopCenter {
+  width: 1190px;
+  height: 74px;
+  line-height: 74px;
+  margin: 10px auto 0;
+  position: relative;
+  padding: 36px 0 20px;
+}
+#loginTop .loginTopCenter a {
+  line-height: 74px;
+  float: left;
+}
+#loginTop .loginTopCenter .loginUser {
+  font-size: 18px;
+  float: left;
+  color: #444;
+}
+#loginTop .loginTopCenter .loginUser i {
+  color: #c9c9c9;
+  padding-right: 15px;
+}
+#loginTop .loginTopCenter .loginVip {
+  font-size: 12px;
+  float: right;
+  color: #e91456;
+}
+#loginTop .loginTopCenter .loginVip i {
+  color: #c9c9c9;
+  padding: 0 5px;
+}
+#loginTop .loginTopCenter .loginVip a {
+  color: #e91456;
+}
 
+/*登陆页面主体样式*/
+#loginCenter {
+  height: 377px;
+}
+#loginCenter .loginMain {
+  width: 1200px;
+  height: 377px;
+  margin: 30px auto 20px;
+  background: green;
+}
+#loginCenter .loginMain .loginMainLeft {
+  float: left;
+}
+#loginCenter .loginMain .loginMainLeft img {
+  width: 852px;
+  height: 377px;
+}
+#loginCenter .loginMain .loginMainRight {
+  width: 347px;
+  height: 377px;
+  margin: 0 auto;
+  background: #ffffff;
+  float: right;
+  text-align: center;
+}
+#loginCenter .loginMain .loginMainRight .loginNum {
+  height: 72px;
+  position: relative;
+}
+#loginCenter .loginMain .loginMainRight .loginNum .loginNumTop {
+  width: 275px;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 36px;
+}
+#loginCenter .loginMain .loginMainRight .loginNum .loginNumTop .vip {
+  float: left;
+  font-size: 14px;
+  color: #444444;
+}
+#loginCenter .loginMain .loginMainRight .loginNum #user {
+  width: 275px;
+  height: 30px;
+  line-height: 30px;
+}
+#loginCenter .loginMain .loginMainRight .loginPassword {
+  height: 36px;
+  line-height: 36px;
+  position: relative;
+  margin: 16px 0;
+}
+#loginCenter .loginMain .loginMainRight .loginPassword #password {
+  width: 275px;
+  height: 30px;
+  line-height: 30px;
+}
+#loginCenter .loginMain .loginMainRight .yanzheng {
+  width: 277px;
+  height: 36px;
+  line-height: 36px;
+  margin: 15px auto;
+  position: relative;
+}
+#loginCenter .loginMain .loginMainRight .yanzheng .yanzhengNum {
+  position: absolute;
+  left: 8px;
+  top: 0;
+  vertical-align: middle;
+}
+#loginCenter .loginMain .loginMainRight .yanzheng #yanNum {
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  float: left;
+}
+#loginCenter .loginMain .loginMainRight .UserLogin {
+  width: 277px;
+  text-align: left;
+  margin: 0 auto;
+}
+#loginCenter .loginMain .loginMainRight .UserLogin p {
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+}
+#loginCenter .loginMain .loginMainRight .UserLogin a {
+  color: #444444;
+}
+#loginCenter .loginMain .loginMainRight .UserLogin #btn {
+  width: 277px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+  background: #E91456;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  text-align: center;
+}
+#loginCenter .loginMain .loginMainRight .loginRightBottom {
+  width: 340px;
+  height: 88px;
+}
+#loginCenter .loginMain .loginMainRight .loginRightBottom .tip {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #E8E8E7;
+  padding-top: 20px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=login.css.map */

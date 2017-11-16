@@ -20,7 +20,7 @@
             .navName{
                 padding: 0 20px;
             }
-            li:first-child{
+            .navColor{
                 a{
                    color: #e91456; 
                 }
@@ -347,6 +347,10 @@
                     color: #444444;
                 }
             }
+            .floorName:hover a{
+                color: #e91456;
+                text-decoration:underline 
+            }
         }
     }
     .floorNav{
@@ -372,6 +376,10 @@
                         float: left;
                         margin-left: 0;
                         color: #444444;
+                    }
+                    a:hover{
+                        color: #e91456;
+                        text-decoration:underline 
                     }
                 }
             }
@@ -412,6 +420,10 @@
                                 color: #444444;
                             }
                         }
+                        .floorInformation:hover a{
+                            color: #e91456;
+                            text-decoration:underline 
+                        }
                         .floorPrice{
                             font-size: 14px;
                             padding: 5px;
@@ -446,6 +458,10 @@
                                 font-size: 12px;
                                 color: #444444;
                             }
+                        }
+                        .floorInformation:hover a{
+                            color: #e91456;
+                            text-decoration:underline 
                         }
                         .floorPrice{
                             font-size: 14px;
@@ -482,6 +498,10 @@
                                 color: #444444;
                             }
                         }
+                        .floorInformation:hover a{
+                            color: #e91456;
+                            text-decoration:underline 
+                        }
                         .floorPrice{
                             font-size: 14px;
                             padding: 5px;
@@ -516,6 +536,10 @@
                                 font-size: 12px;
                                 color: #444444;
                             }
+                        }
+                        .floorInformation:hover a{
+                            color: #e91456;
+                            text-decoration:underline 
                         }
                         .floorPrice{
                             font-size: 14px;
