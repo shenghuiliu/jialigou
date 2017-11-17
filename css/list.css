@@ -176,6 +176,10 @@
 #listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List .cart-List-Information .cart-Name a {
   color: #444;
 }
+#listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List .cart-List-Information .cart-Name:hover a {
+  color: #e91456;
+  text-decoration: underline;
+}
 #listMain .listMainCenter .listMainCenterLeft .cart-Information2 {
   height: 321px;
   width: 970px;
@@ -210,6 +214,10 @@
 }
 #listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List .cart-List-Information .cart-Name a {
   color: #444;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List .cart-List-Information .cart-Name:hover a {
+  color: #e91456;
+  text-decoration: underline;
 }
 #listMain .listMainCenter .listMainCenterLeft .cart-Information3 {
   height: 321px;
@@ -246,6 +254,10 @@
 #listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List .cart-List-Information .cart-Name a {
   color: #444;
 }
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List .cart-List-Information .cart-Name:hover a {
+  color: #e91456;
+  text-decoration: underline;
+}
 #listMain .listMainCenter .listMainCenterLeft .cart-Information4 {
   height: 321px;
   width: 970px;
@@ -280,6 +292,10 @@
 }
 #listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List .cart-List-Information .cart-Name a {
   color: #444;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List .cart-List-Information .cart-Name:hover a {
+  color: #e91456;
+  text-decoration: underline;
 }
 #listMain .listMainCenter .listMainCenterRight {
   width: 190px;
