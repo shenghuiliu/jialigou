@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<!--登录页面顶部-->
@@ -46,11 +47,10 @@
 							<input id="password" type="text" placeholder="密码" />
 						</div>
 						<div class="yanzheng">
-							<span class="yanzhengNum">验证码</span>
-							<input id="yanNum" type="text" />
-							<span>
-								<img src="http://www.jialigou.com/customer/Captcha.html" style="display: block;cursor: pointer;"/>
+							<input id="yanNum" type="text" placeholder="验证码"/>
+							<span id="yz" style=" background:url(images/login/1.png) -10px -15px;width:96px;font-style: italic; height: 32px;border: 1px solid black;display: inline-block;float: left;font-size: 18px;">
 							</span>
+							<a href="javascript:;" id='btn' style="color: red;font-size: 12px;width:36px;height: 32px;display: inline-block;float: left;text-align: center;">看不清</a>
 						</div>
 						<div class="UserLogin">
 							<p>
@@ -65,11 +65,11 @@
 					</form>
 					<div class="loginRightBottom clearfix">
 						<span class="tip">亲，没有账号，你可以选择以下快捷登录方式！</span>
-						<a href="#" style="text-align: center;color: #444; ">
+						<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101286237&redirect_uri=http%3A%2F%2Fwww.jialigou.com%2Fapi%2Fqq_callback.html&state=e2a44694f5ade0a1d68297f33d4f7c53" style="text-align: center; ">
 							<img src="images/login/qq.png" style="vertical-align: middle;height: 16px;display: inline-block;"/>
 							QQ登录
 						</a>
-						<a href="#">
+						<a href="https://api.weibo.com/oauth2/authorize?client_id=3504798288&redirect_uri=http%3A%2F%2Fpc.jialigou.com%2Fapi%2Fweibo_callback%2F&response_type=code&state=weibo_5a0d64ead44fb8.15915825">
 							<img src="images/login/other_way.jpg" style="margin-top: 10px;
 vertical-align: bottom;display: inline-block;"/>
 						</a>

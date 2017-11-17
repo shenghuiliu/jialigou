@@ -45,7 +45,6 @@
   width: 1200px;
   height: 377px;
   margin: 30px auto 20px;
-  background: green;
 }
 #loginCenter .loginMain .loginMainLeft {
   float: left;
@@ -76,6 +75,9 @@
   float: left;
   font-size: 14px;
   color: #444444;
+}
+#loginCenter .loginMain .loginMainRight .loginNum .loginNumTop a:hover {
+  text-decoration: underline;
 }
 #loginCenter .loginMain .loginMainRight .loginNum #user {
   width: 275px;
@@ -125,6 +127,10 @@
 #loginCenter .loginMain .loginMainRight .UserLogin a {
   color: #444444;
 }
+#loginCenter .loginMain .loginMainRight .UserLogin a:hover {
+  text-decoration: underline;
+  color: #E91456;
+}
 #loginCenter .loginMain .loginMainRight .UserLogin #btn {
   width: 277px;
   height: 30px;
@@ -150,6 +156,13 @@
   height: 36px;
   line-height: 36px;
   text-align: center;
+}
+#loginCenter .loginMain .loginMainRight .loginRightBottom a {
+  color: #444444;
+}
+#loginCenter .loginMain .loginMainRight .loginRightBottom a:hover {
+  text-decoration: underline;
+  color: #E91456;
 }
 
 /*# sourceMappingURL=login.css.map */

@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body style="background: #EEEEEE;">
 		<!--注册页面顶部-->
@@ -36,23 +37,26 @@
 						<div class="RegisterMain">
 							<div class="RegisterMainInformation">
 								<span>*用户名：</span>
-								<input id="phoneNum" type="text" placeholder="输入手机号" />
+								<input  id="phoneNum" type="text" placeholder="输入手机号" />
+								<div class="userJudage"></div>
 							</div>
 							<div class="RegisterMainInformation">
 								<span>*设置密码：</span>
 								<input id="Rpassword" type="text" placeholder="创建密码" />
+								<div class="passJudage"></div>
 							</div>
 							<div class="RegisterMainInformation">
 								<span>*确认密码：</span>
 								<input id="Rpassword1" type="text" placeholder="确认密码" />
+								<div class="pass1Judage"></div>
 							</div>
 							<div class="Register">
 								<p>
-									<input type="checkbox"  />
+									<input type="checkbox" checked="checked"/>
 									<span class="servicePromise">
 										<a href="#">我已阅读并同意《嘉丽购物网服务条款》</a>
 									</span>
-									<a class="Pass" href="#">注册</a>
+									<a class="Pass" href="javascript:;">注册</a>
 								</p>
 							</div>
 							<div class="Chance">
@@ -61,6 +65,18 @@
 							</div>
 						</div>
 					</form>
+				</div>
+				<div class="RegisterYes">
+					<ul id="step-3" class="center-from" style="display: none;">
+							<li style="font-size: 18px;color: #444;">
+								恭喜您注册成功
+							</li>
+							<li>
+								<span id="TimeNum">3</span>
+								秒后自动跳转至直采页......
+								<a id="tiao" href="index.html" style="color:red;">直接跳转</a>
+							</li>
+						</ul>
 				</div>
 				<div class="RegisterRight">
 					<img src="images/login/login-bg1.jpg"/>

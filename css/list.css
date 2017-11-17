@@ -1,3 +1,301 @@
+@charset "UTF-8";
+/*页面导航*/
+#nav {
+  border-bottom: 2px solid #e91456;
+}
+#nav .navCenter {
+  width: 1000px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto;
+}
+#nav .navCenter ul {
+  margin-left: 120px;
+}
+#nav .navCenter ul li {
+  display: inline-block;
+}
+#nav .navCenter ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #444444;
+}
+#nav .navCenter ul li:hover a {
+  color: #e91456;
+}
+#nav .navCenter ul .navName {
+  padding: 0 20px;
+}
+#nav .navCenter ul .navColor a {
+  color: #e91456;
+}
+#nav .navCenter ul .navPhone {
+  margin-right: 100px;
+  color: #E91456;
+  font-weight: bold;
+  float: right;
+}
+#nav .navCenter ul .navPhone .navHot {
+  color: #000000;
+}
 
+/*列表页banner图*/
+#listBanner {
+  height: 357px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+#listBanner .listBannerCenter {
+  width: 1200px;
+  margin: 0 auto;
+}
+#listBanner ol {
+  bottom: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#listBanner ol li {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: url(../images/index/orddetailok.png);
+  margin-right: 10px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+
+/*列表页center三个商品*/
+#listBannerBottom {
+  height: 148px;
+}
+#listBannerBottom .listBannerBottomCenter {
+  width: 1190px;
+  height: 148px;
+  margin: 0 auto;
+  border: 1px solid #E8E8E7;
+}
+#listBannerBottom .listBannerBottomCenter ul {
+  width: 1190px;
+  text-align: center;
+}
+#listBannerBottom .listBannerBottomCenter ul li {
+  width: 390px;
+  float: left;
+  position: relative;
+  padding-left: 5px;
+}
+#listBannerBottom .listBannerBottomCenter ul li .listBannerInformation {
+  width: 200px;
+  height: 143px;
+  float: left;
+  position: relative;
+}
+#listBannerBottom .listBannerBottomCenter ul li .listBannerInformation .listBannerPrice {
+  height: 30px;
+  line-height: 30px;
+  color: #e91456;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 36px;
+  float: left;
+}
+#listBannerBottom .listBannerBottomCenter ul li .listBannerInformation .listBannerName {
+  right: 0;
+  bottom: 5px;
+  width: 150px;
+  position: absolute;
+}
+
+#listMain {
+  height: 1522px;
+}
+#listMain .listMainCenter {
+  width: 1190px;
+  height: 1522px;
+  margin: 0 auto;
+  position: relative;
+}
+#listMain .listMainCenter .listMainCenterLeft {
+  width: 970px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .listMainCenterLeftTitle {
+  width: 970px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #E91456;
+  padding: 0 5px;
+  margin-top: 10px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .listMainCenterLeftTitle .newCart {
+  float: left;
+  font-size: 18px;
+  color: #444444;
+}
+#listMain .listMainCenter .listMainCenterLeft .listMainCenterLeftTitle .moreCart {
+  font-size: 12px;
+  float: right;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information {
+  height: 321px;
+  width: 970px;
+  float: left;
+  padding: 5px;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List {
+  height: 320px;
+  margin-left: 13px;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List .cart-List-Information {
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List .cart-List-Information .cart-Price {
+  width: 218px;
+  height: 30px;
+  line-height: 30px;
+  color: #e91456;
+  font-size: 14px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List .cart-List-Information .cart-Name {
+  padding: 5px;
+  font-size: 12px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information .cart-List .cart-List-Information .cart-Name a {
+  color: #444;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 {
+  height: 321px;
+  width: 970px;
+  float: left;
+  padding: 5px;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List {
+  height: 320px;
+  margin-left: 13px;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List .cart-List-Information {
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List .cart-List-Information .cart-Price {
+  width: 218px;
+  height: 30px;
+  line-height: 30px;
+  color: #e91456;
+  font-size: 14px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List .cart-List-Information .cart-Name {
+  padding: 5px;
+  font-size: 12px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information2 .cart-List .cart-List-Information .cart-Name a {
+  color: #444;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 {
+  height: 321px;
+  width: 970px;
+  float: left;
+  padding: 5px;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List {
+  height: 320px;
+  margin-left: 13px;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List .cart-List-Information {
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List .cart-List-Information .cart-Price {
+  width: 218px;
+  height: 30px;
+  line-height: 30px;
+  color: #e91456;
+  font-size: 14px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List .cart-List-Information .cart-Name {
+  padding: 5px;
+  font-size: 12px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information3 .cart-List .cart-List-Information .cart-Name a {
+  color: #444;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 {
+  height: 321px;
+  width: 970px;
+  float: left;
+  padding: 5px;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List {
+  height: 320px;
+  margin-left: 13px;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List .cart-List-Information {
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List .cart-List-Information .cart-Price {
+  width: 218px;
+  height: 30px;
+  line-height: 30px;
+  color: #e91456;
+  font-size: 14px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List .cart-List-Information .cart-Name {
+  padding: 5px;
+  font-size: 12px;
+  float: left;
+}
+#listMain .listMainCenter .listMainCenterLeft .cart-Information4 .cart-List .cart-List-Information .cart-Name a {
+  color: #444;
+}
+#listMain .listMainCenter .listMainCenterRight {
+  width: 190px;
+  height: 824px;
+  float: left;
+  margin-left: 23px;
+}
+#listMain .listMainCenter .listMainCenterRight .Hot-Sell {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 7px;
+  position: relative;
+}
+#listMain .listMainCenter .listMainCenterRight .Hot-Sell ul {
+  position: absolute;
+  top: 40px;
+}
 
 /*# sourceMappingURL=list.css.map */

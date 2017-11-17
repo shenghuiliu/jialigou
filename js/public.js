@@ -31,3 +31,11 @@ $(function(){
 		$(this).css({"text-decoration":"none"})
 	})
 })
+
+function getRand(min,max){
+	return Math.round( Math.random()*(max-min) + min );
+}
+//获取颜色
+function getColor(){
+	return "#" + Math.round(Math.random() * 0xFFFFFF).toString(16);
+}

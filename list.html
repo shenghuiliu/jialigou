@@ -3,7 +3,304 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		<div id="top">
+			<div class="topAll">
+				<div class="topAllLeft">
+					<p class="topPhone">
+						<i class="phoneImg"></i>
+						电话热线
+						<span class="phoneNum">400-630-0077</span>
+					</p>
+				</div>
+				<div class="topAllCenter">
+					<span class="centerLeft">
+						<a href="login.html">[登录]</a>
+					</span>
+					<span>
+						<a href="register.html">[免费注册]</a>
+					</span>
+				</div>
+				<ul class="topAllRight">
+					<li class="li1"><a href="">我的嘉</a></li>
+					<li class="li1"><a href="">我的订单</a></li>
+					<li class="li1"><a href="">客户服务</a></li>
+					<li class="li1"><a href="">电视会员激活</a></li>
+					<li>
+						<i class="phoneLast"></i>
+						<a href="">手机嘉丽购</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--页面LOGO-->
+		<div id="logo">
+			<div class="logoLeft">
+				<a href="index.html">
+					<img src="images/index/ladygood.png" alt="嘉丽购logo" />
+				</a>
+			</div>
+			<div class="logoSearch">
+				<form>
+					<div class="search-box">
+						<input type="text" name="" class="searchBoxLeft" placeholder="输入商品名称或电视商品编号" />
+						<button class="searchButton">
+							<i class="searchImg"></i>
+							搜索
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="logoRight">
+				<a href="shopping.html">
+					<div class="shopping">
+						<span class="shopImg">
+							<i class="shopNum">0</i>
+						</span>
+						<span style="color: #444444;">我的购物车</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<!--页面导航-->
+		<div id="nav">
+			<div class="navCenter" >
+				<ul>
+					<li class="navName">
+						<a href="index.html">首页</a>
+					</li>
+					<li>|</li>
+					<li class="navName">
+						<a href="#">TV直播</a>
+					</li>
+					<li>|</li>
+					<li class="navName navColor">
+						<a href="list.html">水果生鲜</a>
+					</li>
+					<li>|</li>
+					<li class="navName">
+						<a href="#">家居商城</a>
+					</li>
+					<li class="navPhone">
+						<i class="navHot">订购热线</i>
+						 400-630-0077
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--详情页banner图-->
+		<div id="listBanner">
+			<div class="listBannerCenter">
+				<a href="#">
+					<img src="images/list/593e109d0ba90.jpg"/>
+				</a>
+				<ol>
+					<li>1</li>
+				</ol>
+			</div>
+		</div>
+		
+		
+		<div id="listBannerBottom">
+			<div class="listBannerBottomCenter">
+				<ul></ul>
+			</div>
+		</div>
+		
+		<!--列表页主体-->
+		<div id="listMain">
+			<div class="listMainCenter">
+				<div class="listMainCenterLeft">
+					<div class="listMainCenterLeftTitle">
+						<span class="newCart">新品推荐</span>
+						<span class="moreCart">
+							查看更多
+							<i style="color: #E91456;">></i>
+						</span>
+					</div>
+					<ul class="cart-Information">
+						<li style="display: inline-block;float: left;">
+							<a href="#">
+								<img src="images/list/579f0ed698e8c.jpg"/>
+							</a>
+						</li>
+					</ul>
+					<div class="listMainCenterLeftTitle">
+						<span class="newCart">热销推荐</span>
+						<span class="moreCart">
+							查看更多
+							<i style="color: #E91456;">></i>
+						</span>
+					</div>
+					<ul class="cart-Information2">
+						<li style="display: inline-block;float: left;">
+							<a href="#">
+								<img src="images/list/575fca313490e.jpg"/>
+							</a>
+						</li>
+					</ul>
+					<div class="listMainCenterLeftTitle">
+						<span class="newCart">优惠专区</span>
+						<span class="moreCart">
+							查看更多
+							<i style="color: #E91456;">></i>
+						</span>
+					</div>
+					<ul class="cart-Information3">
+						<li style="display: inline-block;float: left;">
+							<a href="#">
+								<img src="images/list/575fd4fc23ee5.jpg"/>
+							</a>
+						</li>
+					</ul>
+					<div class="listMainCenterLeftTitle">
+						<span class="newCart">厂家推荐</span>
+						<span class="moreCart">
+							查看更多
+							<i style="color: #E91456;">></i>
+						</span>
+					</div>
+					<ul class="cart-Information4">
+						<li style="display: inline-block;float: left;">
+							<a href="#">
+								<img src="images/list/5860cf0bb7352.jpg"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="listMainCenterRight">
+					<div class="Hot-Sell">
+						<ul>
+							<li style="padding: 0 25px;height: 40px;line-height: 40px;background: #eeeeee;font-size: 14px;">
+								热销排行
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/list/584115beeab36.jpg" style="width: 190px;height: 373px;margin-top: 7px;"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/list/584115e0d75b9.jpg" style="width: 190px;height: 373px;margin-top: 7px;"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+
+		<!--页面底部-->
+		<div id="Bottom">
+			<div class="bottomLine"></div>
+			<div class="BottomTop">
+				<div class="BottomImg"></div>
+			</div>
+			<div class="BottomBottom">
+				<div class="BottomCenter">
+					<div class="erweima"></div>
+					<div class="BottomService">
+						<div class="serviceList">
+							<strong>购物指南</strong>
+							<a href="#" target="_blank">新用户注册/激活</a>
+							<a href="#" target="_blank">如何订购</a>
+							<a href="#" target="_blank">常见问题</a>
+						</div>
+						<div class="serviceList">
+							<strong>会员中心</strong>
+							<a href="#" target="_blank">会员权利</a>
+							<a href="#" target="_blank">美丽积分</a>
+							<a href="#" target="_blank">订单查询</a>
+							<a href="#" target="_blank">找回密码</a>
+						</div>
+						<div class="serviceList">
+							<strong>配送服务</strong>
+							<a href="#" target="_blank">物流跟踪</a>
+							<a href="#" target="_blank">免运费政策</a>
+						</div>
+						<div class="serviceList">
+							<strong>支付说明</strong>
+							<a href="#" target="_blank">货到付款</a>
+							<a href="#" target="_blank">在线支付</a>
+						</div>
+						<div class="serviceList">
+							<strong>售后服务</strong>
+							<a href="#" target="_blank">退换货政策</a>
+							<a href="#" target="_blank">退换货流程</a>
+							<a href="#" target="_blank">安全与保密</a>
+						</div>
+					</div>
+					<div class="BottomKf"></div>
+				</div>
+			</div>
+			<div class="BottomNav">
+				<p>
+					<a href="#">商城首页</a>
+					|
+					<a href="#">官网微博</a>
+					|
+					<a href="#">供应商登录</a>
+					|
+					<a href="#">供货联系</a>
+					|
+					<a href="#">收藏我们</a>
+					|
+					<a href="#">公司简介</a>
+					|
+					<a href="#">媒体报道</a>
+					|
+					<a href="#">嘉丽购招聘</a>
+					|
+					<a href="#">官方微博</a>
+				</p>
+				<div class="BottomCompany">
+					<p>
+						嘉丽购物有限责任公司 Copyright 2010-2014 jialigou.All Rights Reserved
+					</p>
+					<p class="beihao">
+						 国家广电总局批号：广局[2010] 278号
+						 <a href="#">湘ICP备10203162号-3</a>
+					</p>
+					<div class="cnzz">
+						<a href="#">
+							<img src="images/index/pic.gif"/>
+						</a>
+					</div>
+				</div>
+				
+				<div class="BottomevAluate">
+					<div class="Aluate">
+						<li>
+							<img src="images/index/kx.jpg"/>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/index/360.jpg"/>
+							</a>
+						</li>
+						<li>
+							<img src="images/index/alipay_s.gif"/>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/index/hn110_s.gif"/>
+							</a>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

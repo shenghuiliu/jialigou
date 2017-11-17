@@ -24,6 +24,9 @@
 #nav .navCenter ul .navName {
   padding: 0 20px;
 }
+#nav .navCenter ul li:hover a {
+  color: #e91456;
+}
 #nav .navCenter ul .navColor a {
   color: #e91456;
 }

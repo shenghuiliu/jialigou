@@ -45,7 +45,6 @@
         width: 1200px;
         height: 377px;
         margin: 30px auto 20px;
-        background: green;
         .loginMainLeft{
             float: left;
             img{
@@ -72,6 +71,9 @@
                         float: left;
                         font-size: 14px;
                         color: #444444;
+                    }
+                    a:hover{
+                        text-decoration:underline
                     }
                 }
                 #user{
@@ -122,6 +124,10 @@
                 a{
                     color: #444444;
                 }
+                a:hover{
+                   text-decoration:underline;
+                   color: #E91456;
+                }
                 #btn{
                     width: 277px;
                     height: 30px;
@@ -147,6 +153,13 @@
                     height: 36px;
                     line-height: 36px;
                     text-align: center;
+                }
+                a{
+                    color: #444444;
+                }
+                a:hover{
+                   text-decoration:underline;
+                   color: #E91456;
                 }
             }
         }

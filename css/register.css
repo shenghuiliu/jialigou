@@ -49,7 +49,6 @@
 
 /*注册主体*/
 #Register {
-  height: 377px;
   background: #eeee;
 }
 #Register .RegisterCenter {
@@ -89,6 +88,30 @@
   padding-left: 5px;
   border-color: #E21357;
   outline: none;
+}
+#Register .RegisterCenter .RegisterLeft .RegisterMain .RegisterMainInformation .userJudage {
+  position: absolute;
+  width: 120px;
+  height: 34px;
+  left: 400px;
+  top: 23px;
+  font-size: 16px;
+}
+#Register .RegisterCenter .RegisterLeft .RegisterMain .RegisterMainInformation .passJudage {
+  position: absolute;
+  width: 120px;
+  height: 34px;
+  left: 400px;
+  top: 23px;
+  font-size: 16px;
+}
+#Register .RegisterCenter .RegisterLeft .RegisterMain .RegisterMainInformation .pass1Judage {
+  position: absolute;
+  width: 120px;
+  height: 34px;
+  left: 400px;
+  top: 23px;
+  font-size: 14px;
 }
 #Register .RegisterCenter .RegisterLeft .RegisterMain .Register {
   width: 277px;
@@ -140,6 +163,10 @@
 }
 #Register .RegisterCenter .RegisterRight {
   float: left;
+}
+#Register .RegisterCenter .RegisterYes {
+  font-size: 30px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=register.css.map */

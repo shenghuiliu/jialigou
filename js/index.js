@@ -1,6 +1,6 @@
 $(function(){
 	/*页面轮播图*/
-	$.getJSON("json/index1.json",function(data){
+	$.getJSON("json/index/index1.json",function(data){
 		$.each(data, function(index,value) {
 			$(".bannerImg").append(`<li style="z-index:${value.index}"><a href='#'><img src=${value.img}/></a></li>`)
 		}); 
@@ -43,7 +43,7 @@ $(function(){
 	
 	
 	/*今日、昨日热播*/
-	$.getJSON("json/HotImg.json",function(data){
+	$.getJSON("json/index/HotImg.json",function(data){
 		$.each(data,function(index,value){
 			$(".HotMain .MainRight").append(`<li>
 						<span class="Time">${value.timer}</span>
@@ -62,7 +62,7 @@ $(function(){
 					</li>`)
 		})
 	})
-	$.getJSON("json/Hothidden.json",function(data){
+	$.getJSON("json/index/Hothidden.json",function(data){
 		$.each(data,function(index,value){
 			$(".HotMain .MainHidden").append(`<li>
 						<span class="Time">${value.timer}</span>
@@ -103,7 +103,7 @@ $(function(){
 	})
 
 	/*页面热销推荐*/
-	$.getJSON("json/SellCart.json",function(data){
+	$.getJSON("json/index/SellCart.json",function(data){
 		$.each(data,function(index,value){
 			$(".HotMain .HotSell").append(`<li>
 						<a href="#">
@@ -128,7 +128,7 @@ $(function(){
 	
 	/*页面楼梯一楼*/
 	var str ='';
-	$.ajax("json/floor.json")
+	$.ajax("json/index/floor.json")
 	
 	.then(function(res){
 		for(var i = 0;i < 6;i++){
@@ -155,7 +155,7 @@ $(function(){
 	})
 	/*页面楼梯二楼*/
 	var str1 ='';
-	$.ajax("json/floor.json")
+	$.ajax("json/index/floor.json")
 	
 	.then(function(res){
 		for(var i = 6;i < 12;i++){
@@ -180,7 +180,7 @@ $(function(){
 	})
 	/*页面楼梯三楼*/
 	var str2 ='';
-	$.ajax("json/floor.json")
+	$.ajax("json/index/floor.json")
 	
 	.then(function(res){
 		for(var i = 12;i < 18;i++){
@@ -205,7 +205,7 @@ $(function(){
 	})
 	/*页面楼梯四楼*/
 	var str3 ='';
-	$.ajax("json/floor.json")
+	$.ajax("json/index/floor.json")
 	
 	.then(function(res){
 		for(var i = 18;i < 24;i++){
