@@ -136,6 +136,7 @@ input, button, textarea, select, optgroup, option {
   line-height: 74px;
   margin: 10px auto 0;
   position: relative;
+  padding-bottom: 20px;
 }
 #logo .logoLeft {
   width: 196px;

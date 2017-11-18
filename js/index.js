@@ -41,6 +41,26 @@ $(function(){
 	
 	
 	
+	/*二级菜单*/
+	$(".secondaryMenu .MenuList").mouseenter(function(){
+		$(this).css({"background":"#fff"})
+		$(this).eq(0).find("a").css({"color":"#444"})
+		$(this).find(".MenuHidden").css({"display":"block"})
+	}).mouseleave(function(){
+		$(this).css({"background":"#3B2C33"})
+		$(this).eq(0).find("a").css({"color":"#fff"})
+		$(this).find(".MenuHidden").css({"display":"none"})
+	})
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	/*今日、昨日热播*/
 	$.getJSON("json/index/HotImg.json",function(data){

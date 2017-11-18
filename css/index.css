@@ -47,6 +47,7 @@
   margin: 0 auto;
   position: relative;
   text-align: center;
+  /*二级菜单*/
 }
 #banner .bannerImg {
   width: 100%;
@@ -84,6 +85,96 @@
 }
 #banner .bannerNum .current {
   background: url(../images/index/orddetailok.png);
+}
+#banner .secondaryMenu {
+  position: absolute;
+  width: 190px;
+  height: 516px;
+  float: left;
+  text-align: left;
+  bottom: 0;
+  left: 32px;
+  z-index: 1000;
+  background-color: #3B2C33;
+}
+#banner .secondaryMenu .secondaryMenuTop {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+  background: #e91456;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600 !important;
+}
+#banner .secondaryMenu .MenuList {
+  color: #ffffff;
+  padding: 4px 0;
+}
+#banner .secondaryMenu .MenuList .MenuListTop {
+  padding-bottom: 2px;
+}
+#banner .secondaryMenu .MenuList .MenuListTop .MenuListTopTitle {
+  width: 180px;
+  padding-left: 10px;
+}
+#banner .secondaryMenu .MenuList .MenuListTop .MenuListTopTitle .ListTopTitle {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#banner .secondaryMenu .MenuList .MenuListTop .MenuListTopTitle .ListTopTitle a {
+  color: #ffffff;
+}
+#banner .secondaryMenu .MenuList .MenuListTop .MenuListTopTitle .ListTitle {
+  line-height: 12px;
+  font-size: 12px;
+}
+#banner .secondaryMenu .MenuList .MenuListTop .MenuListTopTitle .ListTitle a {
+  color: #fff;
+}
+#banner .secondaryMenu .MenuList .MenuHidden {
+  width: 620px;
+  height: 480px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+  background: #fff;
+  opacity: 0.8;
+  display: none;
+}
+#banner .secondaryMenu .MenuList .MenuHidden p {
+  margin-left: 5px;
+  padding: 5px 0;
+}
+#banner .secondaryMenu .MenuList .MenuHidden p a {
+  color: #444444;
+  font-size: 12px;
+  margin-right: 5px;
+}
+#banner .secondaryMenu .MenuList .MenuHidden p a:first-child {
+  color: #000000;
+  font-weight: bold;
+}
+#banner .NowCart {
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+  width: 190px;
+  height: 480px;
+  background: #fff;
+  opacity: 0.95;
+  z-index: 1000;
+}
+#banner .NowCart .NowCartImg {
+  text-align: center;
+}
+#banner .NowCart .NowCartImg h2 {
+  height: 43px;
+  line-height: 43px;
+  font-size: 16px;
+  color: #E91456;
+  font-weight: blod;
 }
 
 /*页面热播*/

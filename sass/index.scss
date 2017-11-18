@@ -85,6 +85,96 @@
             background: url(../images/index/orddetailok.png);
         }
     }
+    /*二级菜单*/
+   .secondaryMenu{
+       position: absolute;
+       width: 190px;
+       height: 516px;
+       float: left;
+       text-align: left;
+       bottom: 0;left: 32px;
+       z-index: 1000;
+       background-color: #3B2C33;
+       .secondaryMenuTop{
+           height: 36px;
+            line-height: 36px;
+            padding-left: 10px;
+            background: #e91456;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 600 !important;
+       }
+       .MenuList{
+           color: #ffffff;
+           padding: 4px 0;
+           .MenuListTop{
+               padding-bottom: 2px;
+               .MenuListTopTitle{
+                   width: 180px;
+                   padding-left: 10px;
+                   .ListTopTitle{
+                       height: 30px;
+                       line-height: 30px;
+                       font-size: 14px;
+                       font-weight: bold;
+                       a{
+                            color: #ffffff;                           
+                       }
+                   }
+                   .ListTitle{
+                       line-height: 12px;
+                       font-size: 12px;
+                       a{
+                           color: #fff;
+                       }
+                   }
+               }
+           }
+           .MenuHidden{
+                width: 620px;
+                height: 480px;
+                position: absolute;
+                bottom: 0;
+                left: 190px;
+                background: #fff;
+                opacity: 0.8;
+                display: none;
+                p{
+                    margin-left: 5px;
+                    padding: 5px 0;
+                    a{
+                        color: #444444;
+                        font-size: 12px;
+                        margin-right: 5px;
+                    }
+                    a:first-child{
+                        color: #000000;
+                        font-weight: bold;
+                    }
+                }
+            }
+       }
+   }
+   .NowCart{
+       position: absolute;
+       bottom: 0;
+       right: 32px;
+       width: 190px;
+       height: 480px;
+       background: #fff;
+       opacity: 0.95;
+       z-index: 1000;
+       .NowCartImg{
+           text-align: center;
+           h2{
+               height: 43px;
+               line-height: 43px;
+               font-size: 16px;
+               color: #E91456;
+               font-weight: blod;
+           }
+       }
+   }
 }
 
 /*页面热播*/
