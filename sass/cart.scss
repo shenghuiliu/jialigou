@@ -84,6 +84,10 @@
                    a{
                        color: #444;
                    }
+                   a:hover{
+                       color: #e91456;
+                       text-decoration: underline;
+                   }
                }
             }
             .CartListRightSort{
@@ -107,6 +111,10 @@
                         a{
                             color: #444;
                         }
+                        a:hover{
+                           color: #e91456;
+                           text-decoration: underline; 
+                        }
                     }
                     .Sort{
                         font-weight: bold;
@@ -114,11 +122,13 @@
                 }
             }
             .CartMainInformation{
+                display: block;
                 ul{
                     width: 990px;
                     padding-top: 10px;
                     float: left;
                     li{
+                        display: inline-block;
                         height: 335px;
                         width: 228px;
                         border: 1px solid #ffffff;
@@ -132,10 +142,17 @@
                             position: absolute;
                             bottom: 0;
                             .NameCart{
+                                width: 228px;
                                 float: left;
                                 padding: 5px;
+                                text-align: left;
                                 a{
+                                    font-size: 12px;
                                     color: #444444;
+                                }
+                                a:hover{
+                                    color: #e91456;
+                                    text-decoration: underline;
                                 }
                             }
                             .PriceCart{
@@ -167,6 +184,161 @@
                                     vertical-align: middle;
                                 }
                             }
+                        }
+                    }
+                }
+            }
+            .CartMainInformation2{
+                display: none;
+                ul{
+                    width: 990px;
+                    padding-top: 10px;
+                    float: left;
+                    li{
+                        height: 335px;
+                        width: 228px;
+                        border: 1px solid #ffffff;
+                        margin-left: 14px;
+                        float: left;
+                        text-align: center;
+                        margin-bottom: 5px;
+                        position: relative;
+                        .InformationCart{
+                            height: 92px;
+                            position: absolute;
+                            bottom: 0;
+                            .NameCart{
+                                width: 228px;
+                                float: left;
+                                padding: 5px;
+                                text-align: left;
+                                a{
+                                    font-size: 12px;
+                                    color: #444444;
+                                }
+                                a:hover{
+                                    color: #e91456;
+                                    text-decoration: underline;
+                                }
+                            }
+                            .PriceCart{
+                                font-size: 14px;
+                                float: left;
+                                color: #e91456;
+                                padding: 5px;
+                            }
+                            .NumCart{
+                                float: right;
+                                font-size: 12px;
+                                padding: 5px;
+                            }
+                            .Chance{
+                                height: 42px;
+                                padding: 5px;
+                                float: left;
+                                margin-left: 20px;
+                                a{
+                                    display: inline-block;
+                                    border: 1px solid #d0d0d0;
+                                    background: #f3f3f3;
+                                    color: #333;
+                                    padding: 0 12px;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    text-align: center;
+                                    font-size: 14px;
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .CartMainInformation3{
+                display: none;
+                ul{
+                    width: 990px;
+                    padding-top: 10px;
+                    float: left;
+                    li{
+                        height: 335px;
+                        width: 228px;
+                        border: 1px solid #ffffff;
+                        margin-left: 14px;
+                        float: left;
+                        text-align: center;
+                        margin-bottom: 5px;
+                        position: relative;
+                        .InformationCart{
+                            height: 92px;
+                            position: absolute;
+                            bottom: 0;
+                           .NameCart{
+                                width: 228px;
+                                float: left;
+                                padding: 5px;
+                                text-align: left;
+                                a{
+                                    font-size: 12px;
+                                    color: #444444;
+                                }
+                                a:hover{
+                                    color: #e91456;
+                                    text-decoration: underline;
+                                }
+                            }
+                            .PriceCart{
+                                font-size: 14px;
+                                float: left;
+                                color: #e91456;
+                                padding: 5px;
+                            }
+                            .NumCart{
+                                float: right;
+                                font-size: 12px;
+                                padding: 5px;
+                            }
+                            .Chance{
+                                height: 42px;
+                                padding: 5px;
+                                float: left;
+                                margin-left: 20px;
+                                a{
+                                    display: inline-block;
+                                    border: 1px solid #d0d0d0;
+                                    background: #f3f3f3;
+                                    color: #333;
+                                    padding: 0 12px;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    text-align: center;
+                                    font-size: 14px;
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .PageNum{
+                width: 990px;
+                height: 60px;
+                line-height: 60px;
+                float: left;
+                position: relative;
+                ul{
+                    position: absolute;
+                    bottom: 0;
+                    left: 300px;
+                    li{
+                        float: left;
+                        margin:0 10px;
+                        a{
+                            color: #444444;
+                        }
+                        a:hover{
+                            color: #e91456;
+                            text-decoration: underline; 
                         }
                     }
                 }

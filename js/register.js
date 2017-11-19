@@ -1,6 +1,4 @@
 /*注册表单验证*/
-
-
 $(function(){
 	/*判断用户名是否存在*/
 	var isTrue = [false,false,false]
