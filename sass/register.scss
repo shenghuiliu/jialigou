@@ -130,6 +130,10 @@
                                 color: #444444;
                                 line-height: 36px;
                             }
+                            a:hover{
+                                color: #e21357;
+                                text-decoration: underline;
+                            }
                         }
                         .Pass{
                             width: 274px;
@@ -142,6 +146,10 @@
                             line-height: 30px;
                             vertical-align: middle;
                         }
+                        .Pass:hover{
+                            border-color: red;
+                            background: red;
+                        }
                     }
                 }
                 .Chance{
@@ -153,7 +161,10 @@
                     float: left;
                     margin-left: 46px;
                     a{
-                        color: #E91456;
+                        color: red;
+                    }
+                    a:hover{
+                        text-decoration: underline;
                     }
                 }
             }

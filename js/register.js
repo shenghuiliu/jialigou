@@ -59,8 +59,9 @@ $(function(){
 		}
 	}) 
 	
-	
+	/*cookie Id*/
 	let id = new Date().getTime()
+	/*cookie 保存时间*/
 	var date = new Date();
 	date.setDate(date.getDate() + 7);
 	/*注册*/
@@ -82,7 +83,7 @@ $(function(){
 					location.href="index.html"
 				}
 			},1000)
-			
+			/*创建Cookie*/
 			var userPhone = $("#phoneNum").val()
 			var userPassword = $("#Rpassword").val()
 			var cookieValue = "{id:" + id + ',phone:"' + userPhone + '",password:' + userPassword + "}";
@@ -101,7 +102,6 @@ $(function(){
 				var $userPass = user.password
 			}
 			if($userId == obj.val()){
-				alert("用户名字已存在")
 				$(".userJudage").html("用户名已存在")
 				$(".userJudage").css({"color":"red"})
 				isTrue[0]=false;

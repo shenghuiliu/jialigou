@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*页面导航*/
+#nav {
+  border-bottom: 2px solid #e91456;
+  position: relative;
+}
+#nav .navCenter {
+  width: 1000px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto;
+}
+#nav .navCenter ul {
+  margin-left: 120px;
+}
+#nav .navCenter ul li {
+  display: inline-block;
+}
+#nav .navCenter ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #444444;
+}
+#nav .navCenter ul .navName {
+  padding: 0 20px;
+}
+#nav .navCenter ul li:hover a {
+  color: #e91456;
+}
+#nav .navCenter ul .navPhone {
+  margin-right: 100px;
+  color: #E91456;
+  font-weight: bold;
+  float: right;
+}
+#nav .navCenter ul .navPhone .navHot {
+  color: #000000;
+}
+#nav .navCenter .AllCart {
+  width: 190px;
+  position: absolute;
+  left: 32px;
+  bottom: 0;
+  font-size: 18px;
+  color: #ffffff;
+  background: #e91456;
+  padding-left: 10px;
+  font-weight: 600 !important;
+}
+
+/*详情页MainTop*/
+#detailMainTop {
+  height: 40px;
+}
+#detailMainTop .detailMainTitle {
+  width: 1190px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 40px;
+  margin-bottom: 6px;
+}
+#detailMainTop .detailMainTitle span {
+  font-size: 12px;
+  color: #444;
+}
+
+/*商品详情购买*/
+#detailCartMain .detailCartBuy {
+  width: 1190px;
+  margin: 0 auto;
+}
+#detailCartMain .detailCartBuy .detailMainLeft {
+  float: left;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .BigCartImg {
+  border: 1px solid #E8E8E7;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .BigCartImg li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .SmallCartImg {
+  width: 410px;
+  height: 66px;
+  margin: 8px 0;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .SmallCartImg li {
+  float: left;
+  border: 1px solid #ccc;
+  margin-right: 6px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .CartShare .ShareTo {
+  width: 48px;
+  height: 28px;
+  line-height: 28px;
+  float: left;
+  font-size: 12px;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .CartShare .ShareAddress a {
+  float: left;
+  font-size: 12px;
+  padding-left: 17px;
+  line-height: 16px;
+  height: 16px;
+  background: url(../images/detail/icons_0_16.png) no-repeat;
+  cursor: pointer;
+  margin: 6px 6px 6px 0;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .CartShare .ShareAddress .weixin {
+  background-position: 0 -1612px;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .CartShare .ShareAddress .qzone {
+  background-position: 0 -52px;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .CartShare .ShareAddress .sina {
+  background-position: 0 -104px;
+}
+#detailCartMain .detailCartBuy .detailMainLeft .CartShare .ShareAddress .qq {
+  background-position: 0 -260px;
+}
+#detailCartMain .detailCartBuy .detailMainRight {
+  width: 740px;
+  min-height: 360px;
+  margin-left: 20px;
+  float: left;
+  position: relative;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartPrice ul {
+  margin-top: 10px;
+  background: #eeeeee;
+  text-align: left;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartPrice ul li {
+  width: 740px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartPrice ul li .integral {
+  width: 130px;
+  padding: 0 25px;
+  line-height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartSize ul {
+  text-align: left;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartSize ul li .size {
+  height: 40px;
+  line-height: 40px;
+  width: 130px;
+  padding: 0 25px;
+  float: left;
+  text-align: left;
+  box-sizing: border-box;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartSize ul li ol {
+  display: inline-block;
+  max-height: 120px;
+  width: 610px;
+  overflow: hidden;
+  margin: 12px 0;
+  text-align: left;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartSize ul li ol span {
+  display: inline-block;
+  margin: 8px 0;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum {
+  border-top: 1px solid #E8E8E7;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum ul {
+  margin: 5px 0;
+  float: left;
+  text-align: left;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum ul li {
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum ul li .size {
+  height: 40px;
+  line-height: 40px;
+  width: 130px;
+  padding: 0 25px;
+  float: left;
+  text-align: left;
+  box-sizing: border-box;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum ul li .reduce {
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  width: 24px;
+  color: #555;
+  background-color: #eee;
+  color: #555;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum ul li #num {
+  width: 47px;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+#detailCartMain .detailCartBuy .detailMainRight .detailCartNum ul li .add {
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  width: 24px;
+  background-color: #eee;
+  color: #555;
+}
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow {
+  height: 40px;
+  line-height: 40px;
+  bottom: -40px;
+  left: 0;
+  position: absolute;
+  float: left;
+}
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow .Buy {
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: content-box;
+  padding: 0 12px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #d0d0d0;
+  background: #f3f3f3;
+  color: #333;
+  cursor: pointer;
+}
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow .addCart {
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: content-box;
+  padding: 0 12px;
+  height: 30px;
+  margin: 0 10px;
+  line-height: 30px;
+  border: 1px solid #e21357;
+  background: #e21357;
+  color: #333;
+  cursor: pointer;
+}
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow .collect {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: content-box;
+  padding: 0 12px;
+  height: 30px;
+  margin: 0 10px;
+  line-height: 30px;
+  border: 1px solid #d0d0d0;
+  background: #F3F3F3;
+  color: #333;
+  cursor: pointer;
+}
+
+/*最佳搭配*/
+#best {
+  height: 40px;
+}
+#best .bestCenter {
+  width: 1190px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#best .bestCenter span {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  background: #eee;
+  box-sizing: border-box;
+  color: #444;
+  font-size: 14px;
+}
+
+/*商品介绍*/
+#introduce {
+  margin-top: 20px;
+}
+#introduce .introduceCenter {
+  width: 1190px;
+  margin: 0 auto;
+}
+#introduce .introduceCenter .introduceLeft {
+  width: 190px;
+  float: left;
+}
+#introduce .introduceCenter .introduceLeft .introduceLeftTitle {
+  height: 40px;
+  line-height: 40px;
+  background: #eeeeee;
+  text-align: left;
+}
+#introduce .introduceCenter .introduceLeft .introduceLeftTitle .way {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  padding: 0 25px;
+}
+#introduce .introduceCenter .introduceLeft ul .wei {
+  border-bottom: 1px solid #E8E8E7;
+  position: relative;
+}
+#introduce .introduceCenter .introduceLeft ul .wei img {
+  width: 100%;
+}
+#introduce .introduceCenter .introduceLeft ul li {
+  border-bottom: 1px solid #E8E8E7;
+}
+#introduce .introduceCenter .introduceLeft ul li .cartname {
+  padding: 5px;
+  text-align: left;
+}
+#introduce .introduceCenter .introduceLeft ul li .cartprice {
+  color: #e91456;
+  padding: 5px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=detail.css.map */

@@ -153,16 +153,16 @@ $(function(){
 	.then(function(res){
 		for(var i = 0;i < 6;i++){
 			str += `<li>
-								<a href="#">
-									<img src=${res[i].img} style="width: 167px;height: 167px;"/>
-								</a>
-								<div class="floorBannerInformation">
-									<p class="floorInformation">
-										<a href="#">${res[i].name}</a>
-									</p>
-									<p class="floorPrice">${res[i].price}</p>
-								</div>
-							</li>`;
+						<a href="#">
+							<img src=${res[i].img} style="width: 167px;height: 167px;"/>
+						</a>
+						<div class="floorBannerInformation">
+							<p class="floorInformation">
+								<a href="#">${res[i].name}</a>
+							</p>
+							<p class="floorPrice">${res[i].price}</p>
+						</div>
+					</li>`;
 		}
 	$(".floorBannerRight ul").html(str);
 	})
@@ -180,16 +180,16 @@ $(function(){
 	.then(function(res){
 		for(var i = 6;i < 12;i++){
 			str1 += `<li>
-								<a href="#">
-									<img src=${res[i].img} style="width: 167px;height: 167px;"/>
-								</a>
-								<div class="floorBannerInformation">
-									<p class="floorInformation">
-										<a href="#">${res[i].name}</a>
-									</p>
-									<p class="floorPrice">${res[i].price}</p>
-								</div>
-							</li>`;
+						<a href="#">
+							<img src=${res[i].img} style="width: 167px;height: 167px;"/>
+						</a>
+						<div class="floorBannerInformation">
+							<p class="floorInformation">
+								<a href="#">${res[i].name}</a>
+							</p>
+							<p class="floorPrice">${res[i].price}</p>
+						</div>
+					</li>`;
 		}
 	$(".floorBannerRight2 ul").html(str1);
 	})
@@ -205,16 +205,16 @@ $(function(){
 	.then(function(res){
 		for(var i = 12;i < 18;i++){
 			str2 += `<li>
-								<a href="#">
-									<img src=${res[i].img} style="width: 167px;height: 167px;"/>
-								</a>
-								<div class="floorBannerInformation">
-									<p class="floorInformation">
-										<a href="#">${res[i].name}</a>
-									</p>
-									<p class="floorPrice">${res[i].price}</p>
-								</div>
-							</li>`;
+						<a href="#">
+							<img src=${res[i].img} style="width: 167px;height: 167px;"/>
+						</a>
+						<div class="floorBannerInformation">
+							<p class="floorInformation">
+								<a href="#">${res[i].name}</a>
+							</p>
+							<p class="floorPrice">${res[i].price}</p>
+						</div>
+					</li>`;
 		}
 	$(".floorBannerRight3 ul").html(str2);
 	})
@@ -230,16 +230,16 @@ $(function(){
 	.then(function(res){
 		for(var i = 18;i < 24;i++){
 			str3 += `<li>
-								<a href="#">
-									<img src=${res[i].img} style="width: 167px;height: 167px;"/>
-								</a>
-								<div class="floorBannerInformation">
-									<p class="floorInformation">
-										<a href="#">${res[i].name}</a>
-									</p>
-									<p class="floorPrice">${res[i].price}</p>
-								</div>
-							</li>`;
+						<a href="#">
+							<img src=${res[i].img} style="width: 167px;height: 167px;"/>
+						</a>
+						<div class="floorBannerInformation">
+							<p class="floorInformation">
+								<a href="#">${res[i].name}</a>
+							</p>
+							<p class="floorPrice">${res[i].price}</p>
+						</div>
+					</li>`;
 		}
 	$(".floorBannerRight4 ul").html(str3);
 	})

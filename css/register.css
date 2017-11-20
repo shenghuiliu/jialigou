@@ -138,6 +138,10 @@
   color: #444444;
   line-height: 36px;
 }
+#Register .RegisterCenter .RegisterLeft .RegisterMain .Register p .servicePromise a:hover {
+  color: #e21357;
+  text-decoration: underline;
+}
 #Register .RegisterCenter .RegisterLeft .RegisterMain .Register p .Pass {
   width: 274px;
   color: #fff;
@@ -149,6 +153,10 @@
   line-height: 30px;
   vertical-align: middle;
 }
+#Register .RegisterCenter .RegisterLeft .RegisterMain .Register p .Pass:hover {
+  border-color: red;
+  background: red;
+}
 #Register .RegisterCenter .RegisterLeft .RegisterMain .Chance {
   width: 270px;
   height: 40px;
@@ -159,7 +167,10 @@
   margin-left: 46px;
 }
 #Register .RegisterCenter .RegisterLeft .RegisterMain .Chance a {
-  color: #E91456;
+  color: red;
+}
+#Register .RegisterCenter .RegisterLeft .RegisterMain .Chance a:hover {
+  text-decoration: underline;
 }
 #Register .RegisterCenter .RegisterRight {
   float: left;

@@ -106,6 +106,9 @@
   font-size: 18px;
   font-weight: 600 !important;
 }
+#banner .secondaryMenu a:hover {
+  text-decoration: underline;
+}
 #banner .secondaryMenu .MenuList {
   color: #ffffff;
   padding: 4px 0;

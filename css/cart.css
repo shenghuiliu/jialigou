@@ -66,6 +66,76 @@
 .CartMainCenter .CartList {
   text-align: left;
 }
+.CartMainCenter .CartList .CartListLeft {
+  width: 190px;
+  float: left;
+  border: 1px solid #E8E8E7;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop {
+  text-align: left;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftTitle {
+  height: 30px;
+  line-height: 30px;
+  background: #E8E8E7 none repeat scroll 0% 0%;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftTitle span {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 25px;
+  font-size: 14px;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftContent {
+  position: relative;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftContent li {
+  width: 140px;
+  border-bottom: 1px solid #fff;
+  line-height: 25px;
+  padding: 5px 25px;
+  float: left;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftContent li h3 {
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftContent li h3 a {
+  color: #333;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftContent li span {
+  margin-right: 10px;
+  float: left;
+}
+.CartMainCenter .CartList .CartListLeft .CartListLeftTop .CartListLeftContent li span a {
+  width: 30%;
+  color: #333;
+}
+.CartMainCenter .CartList .CartListLeft .CartFeature {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+.CartMainCenter .CartList .CartListLeft .CartFeature span {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #e91456;
+  padding: 0 25px;
+}
+.CartMainCenter .CartList .CartListLeft .FeatureInformation {
+  border-top: 1px solid #E8E8E7;
+}
+.CartMainCenter .CartList .CartListLeft .FeatureInformation .FeatureName {
+  padding: 5px;
+  text-align: left;
+}
+.CartMainCenter .CartList .CartListLeft .FeatureInformation .FeaturePrice {
+  color: #e91456;
+  padding: 5px;
+}
 .CartMainCenter .CartList .CartListRight {
   width: 990px;
   float: right;
@@ -80,14 +150,15 @@
   height: 40px;
   line-height: 40px;
 }
-.CartMainCenter .CartList .CartListRight .CartListRightNav p a:first-child {
+.CartMainCenter .CartList .CartListRight .CartListRightNav p .Brand {
   color: #fff;
+  background: #e91456;
+  padding: 0 3px;
 }
 .CartMainCenter .CartList .CartListRight .CartListRightNav p a {
   color: #444;
 }
 .CartMainCenter .CartList .CartListRight .CartListRightNav p a:hover {
-  color: #e91456;
   text-decoration: underline;
 }
 .CartMainCenter .CartList .CartListRight .CartListRightSort {
@@ -188,138 +259,6 @@
   font-size: 14px;
   vertical-align: middle;
 }
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 {
-  display: none;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul {
-  width: 990px;
-  padding-top: 10px;
-  float: left;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li {
-  height: 335px;
-  width: 228px;
-  border: 1px solid #ffffff;
-  margin-left: 14px;
-  float: left;
-  text-align: center;
-  margin-bottom: 5px;
-  position: relative;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart {
-  height: 92px;
-  position: absolute;
-  bottom: 0;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .NameCart {
-  width: 228px;
-  float: left;
-  padding: 5px;
-  text-align: left;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .NameCart a {
-  font-size: 12px;
-  color: #444444;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .NameCart a:hover {
-  color: #e91456;
-  text-decoration: underline;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .PriceCart {
-  font-size: 14px;
-  float: left;
-  color: #e91456;
-  padding: 5px;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .NumCart {
-  float: right;
-  font-size: 12px;
-  padding: 5px;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .Chance {
-  height: 42px;
-  padding: 5px;
-  float: left;
-  margin-left: 20px;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation2 ul li .InformationCart .Chance a {
-  display: inline-block;
-  border: 1px solid #d0d0d0;
-  background: #f3f3f3;
-  color: #333;
-  padding: 0 12px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 14px;
-  vertical-align: middle;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 {
-  display: none;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul {
-  width: 990px;
-  padding-top: 10px;
-  float: left;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li {
-  height: 335px;
-  width: 228px;
-  border: 1px solid #ffffff;
-  margin-left: 14px;
-  float: left;
-  text-align: center;
-  margin-bottom: 5px;
-  position: relative;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart {
-  height: 92px;
-  position: absolute;
-  bottom: 0;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .NameCart {
-  width: 228px;
-  float: left;
-  padding: 5px;
-  text-align: left;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .NameCart a {
-  font-size: 12px;
-  color: #444444;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .NameCart a:hover {
-  color: #e91456;
-  text-decoration: underline;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .PriceCart {
-  font-size: 14px;
-  float: left;
-  color: #e91456;
-  padding: 5px;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .NumCart {
-  float: right;
-  font-size: 12px;
-  padding: 5px;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .Chance {
-  height: 42px;
-  padding: 5px;
-  float: left;
-  margin-left: 20px;
-}
-.CartMainCenter .CartList .CartListRight .CartMainInformation3 ul li .InformationCart .Chance a {
-  display: inline-block;
-  border: 1px solid #d0d0d0;
-  background: #f3f3f3;
-  color: #333;
-  padding: 0 12px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 14px;
-  vertical-align: middle;
-}
 .CartMainCenter .CartList .CartListRight .PageNum {
   width: 990px;
   height: 60px;
@@ -342,6 +281,51 @@
 .CartMainCenter .CartList .CartListRight .PageNum ul li a:hover {
   color: #e91456;
   text-decoration: underline;
+}
+.CartMainCenter .CartListBottom {
+  margin-top: 20px;
+  width: 1190px;
+}
+.CartMainCenter .CartListBottom .guessLike {
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 0 5px;
+  font-size: 14px;
+}
+.CartMainCenter .CartListBottom .guessList {
+  width: 1188px;
+  border: 1px solid #E8E8E7;
+}
+.CartMainCenter .CartListBottom .guessList .guessListInformation {
+  width: 230px;
+  margin-left: 3px;
+  padding: 10px 0;
+}
+.CartMainCenter .CartListBottom .guessList .guessListInformation .guessName {
+  display: inline-block;
+  width: 230px;
+  height: 35px;
+  padding: 5px;
+  float: left;
+}
+.CartMainCenter .CartListBottom .guessList .guessListInformation .guessPrice {
+  width: 230px;
+  color: #e91456;
+  font-size: 14px;
+  float: left;
+  margin: 5px;
+}
+.CartMainCenter .CartListBottom .guessList .guessListInformation .AddCart {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #d0d0d0;
+  background: #f3f3f3;
+  color: #333;
+  padding: 0 12px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 60px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=cart.css.map */

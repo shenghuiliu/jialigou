@@ -11,24 +11,6 @@ $(function(){
 	$(".yanzheng #btn").click(function(){
 		$("#yz").html(yzm())
 	})
-	
-//	var arr = [false,false,false]
-//	$(".loginNum #user").blur(function(){
-//		if($(this).val() == ""){
-//			alert("用户名不能为空")
-//		}else{
-//			cookie($(".loginNum #user"))
-//		}
-//	})
-//	
-//	$(".loginPassword #password").blur(function(){
-//		if($(this).val() == ""){
-//			alert("用户名密码不能为空")
-//		}else{
-//			
-//		}
-//	})
-	
 	console.log($("#yz").html())
 	var str = [false,false,false]
 	$(".UserLogin #btn").click(function(){
