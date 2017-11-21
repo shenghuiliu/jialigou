@@ -262,6 +262,9 @@
                     color: #333;
                     cursor: pointer;
                 }
+                .Buy:hover{
+                  background: #e7e7e7;  
+                }
                 .addCart{
                    width: 150px;
                     font-size: 14px;
@@ -274,8 +277,11 @@
                     line-height: 30px;
                     border:1px solid #e21357;
                     background: #e21357;
-                    color: #333; 
+                    color: #fff; 
                     cursor: pointer;
+                }
+                .addCart:hover{
+                    background: #cc1c23;
                 }
                 .collect{
                      font-size: 14px;
@@ -290,6 +296,9 @@
                     background: #F3F3F3;
                     color: #333; 
                     cursor: pointer;
+                }
+                .collect:hover{
+                  background: #e7e7e7;  
                 }
             }
         }
@@ -357,6 +366,71 @@
                         color: #e91456;
                         padding: 5px;
                         width: 100%;
+                    }
+                }
+            }
+        }
+        .introduceRight{
+            width: 990px;
+            border: 1px solid #E8E8E7;
+            float: right;
+            .introduceRightTop{
+                width: 100%;
+                .introduceRightTitle{
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background-color: #eeeeee;
+                    li{
+                        width: 194px;
+                        overflow: hidden;
+                        display: inline-block;
+                        cursor: pointer;
+                        position: relative;
+                        span{
+                            display: inline-block;
+                            top: -1px;
+                            left: 0px;
+                            height: 12px;
+                            width: 196px;
+                            position: absolute;
+                        }
+                        .bgColor1{
+                             background: url(../images/detail/red.png) no-repeat;
+                        }
+                        .bgColor{
+                             background: url(../images/detail/gray.png) no-repeat;
+                        }
+                    }
+                }
+            }
+            .introduceRightBottom{
+                background: #F8F8F8;
+                padding-top: 20px;
+                .introduceConcent{
+                    width: 990px;
+                    margin: 0 auto;
+                    .introduceImg{
+                        line-height: 26px;
+                        img{
+                            margin: 0 auto;
+                        }
+                        li{
+                            .title{
+                                height: 40px;
+                                line-height: 40px;
+                                background: #eee;
+                                text-indent: 15px;
+                            }
+                            .content{
+                                text-indent: 15px;
+                                line-height: 26px;
+                                font-size: 14px;
+                            }
+                            a{
+                                color: #444;
+                            }
+                        }
                     }
                 }
             }

@@ -251,6 +251,9 @@
   color: #333;
   cursor: pointer;
 }
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow .Buy:hover {
+  background: #e7e7e7;
+}
 #detailCartMain .detailCartBuy .detailMainRight .BuyNow .addCart {
   width: 150px;
   font-size: 14px;
@@ -263,8 +266,11 @@
   line-height: 30px;
   border: 1px solid #e21357;
   background: #e21357;
-  color: #333;
+  color: #fff;
   cursor: pointer;
+}
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow .addCart:hover {
+  background: #cc1c23;
 }
 #detailCartMain .detailCartBuy .detailMainRight .BuyNow .collect {
   font-size: 14px;
@@ -279,6 +285,9 @@
   background: #F3F3F3;
   color: #333;
   cursor: pointer;
+}
+#detailCartMain .detailCartBuy .detailMainRight .BuyNow .collect:hover {
+  background: #e7e7e7;
 }
 
 /*最佳搭配*/
@@ -344,6 +353,69 @@
   color: #e91456;
   padding: 5px;
   width: 100%;
+}
+#introduce .introduceCenter .introduceRight {
+  width: 990px;
+  border: 1px solid #E8E8E7;
+  float: right;
+}
+#introduce .introduceCenter .introduceRight .introduceRightTop {
+  width: 100%;
+}
+#introduce .introduceCenter .introduceRight .introduceRightTop .introduceRightTitle {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #eeeeee;
+}
+#introduce .introduceCenter .introduceRight .introduceRightTop .introduceRightTitle li {
+  width: 194px;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+#introduce .introduceCenter .introduceRight .introduceRightTop .introduceRightTitle li span {
+  display: inline-block;
+  top: -1px;
+  left: 0px;
+  height: 12px;
+  width: 196px;
+  position: absolute;
+}
+#introduce .introduceCenter .introduceRight .introduceRightTop .introduceRightTitle li .bgColor1 {
+  background: url(../images/detail/red.png) no-repeat;
+}
+#introduce .introduceCenter .introduceRight .introduceRightTop .introduceRightTitle li .bgColor {
+  background: url(../images/detail/gray.png) no-repeat;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom {
+  background: #F8F8F8;
+  padding-top: 20px;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom .introduceConcent {
+  width: 990px;
+  margin: 0 auto;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom .introduceConcent .introduceImg {
+  line-height: 26px;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom .introduceConcent .introduceImg img {
+  margin: 0 auto;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom .introduceConcent .introduceImg li .title {
+  height: 40px;
+  line-height: 40px;
+  background: #eee;
+  text-indent: 15px;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom .introduceConcent .introduceImg li .content {
+  text-indent: 15px;
+  line-height: 26px;
+  font-size: 14px;
+}
+#introduce .introduceCenter .introduceRight .introduceRightBottom .introduceConcent .introduceImg li a {
+  color: #444;
 }
 
 /*# sourceMappingURL=detail.css.map */

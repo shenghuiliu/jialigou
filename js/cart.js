@@ -5,7 +5,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 0;i<16;i++){
 			str += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -29,7 +29,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 16;i<32;i++){
 			str1 += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -54,7 +54,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 32;i<43;i++){
 			str2 += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -123,7 +123,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 0;i<9;i++){
 			str3 += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -147,7 +147,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 9;i<10;i++){
 			str4 += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -171,7 +171,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 10;i<11;i++){
 			str5 += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -196,7 +196,7 @@ $(function(){
 	.then(function(res){
 		for(var i = 11;i<12;i++){
 			str6 += `<li>
-						<a href="#">
+						<a href="detail.html">
 							<img src=${res[i].img} style="width:218px;height:218px;"/>
 						</a>
 						<div class="InformationCart">
@@ -245,5 +245,13 @@ $(function(){
 			$(this).siblings().find(".CartListLeftContent").css({"display":"none"})
 			arr[index] = true
 		}
+	})
+	
+	
+	/*商品边框*/
+	$(".CartMainInformation ul").on( "mouseover" , " li ",function(){
+		$(this).css({"border":"1px solid #ccc"})
+	}).on("mouseout","li",function(){
+		$(this).css({"border":"1px solid #F8F8F8"})
 	})
 })
